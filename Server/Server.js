@@ -65,9 +65,22 @@ app.post("/expenses", (req, res) => {
         res.status(500).json({ err: err });
         return;
       }
-      res.status(500).json({ ok: true });
+      res.status(200).json({ ok: true });
     }
   );
+});
+
+//List all expenses for an trip
+
+app.get("/expenses", (req, res) => {
+  expenses.find({ trip: req.body.trip }).toArray((err, items) => {
+    if (err) {
+      console.log("No Expenses recorded for that particular trip", err);
+      res.status(500).json({ err: err });
+      return;
+    }
+    res.status(200).json({ trips: items });
+  });
 });
 
 /** End - API's for Trip Planner */
