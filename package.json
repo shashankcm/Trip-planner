@@ -1,0 +1,22 @@
+{
+  "name": "tripcost",
+  "version": "1.0.0",
+  "description": "You can store list of expenses occured for an trip.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shashankcm/Trip-planner.git"
+  },
+  "keywords": [
+    "trip-planner"
+  ],
+  "author": "Shashank Chikattimala",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shashankcm/Trip-planner/issues"
+  },
+  "homepage": "https://github.com/shashankcm/Trip-planner#readme"
+}
