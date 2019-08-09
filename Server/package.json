@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/shashankcm/Trip-planner/issues"
   },
-  "homepage": "https://github.com/shashankcm/Trip-planner#readme"
+  "homepage": "https://github.com/shashankcm/Trip-planner#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.3.0-beta2"
+  }
 }
